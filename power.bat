@@ -1,5 +1,5 @@
 @echo off
-call :power 2 4
+call :power %1 %2
 echo %result%
 rem Prints 16, determined as 2 * 2 * 2 * 2
 goto :eof
