@@ -10,3 +10,10 @@ steps:
   inputs:
     filename: 'power.bat'
     arguments: '3 4'
+  displayName: Calling Power with arguments
+
+- task: BatchScript@1
+  inputs:
+    filename: 'calc.bat'
+    arguments: '400 300'
+  displayName: Calling Calc with arguments
